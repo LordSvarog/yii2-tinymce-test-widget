@@ -2,7 +2,8 @@ TinyMCE Widget для Yii2
 ===================
 Виджет для отрисовки [TinyMCE WYSIWYG text editor plugin](http://www.tinymce.com/) .
 
-##Установка
+## Установка
+
 Предпочтительным способом установки данного расширения является использование [Composer](http://getcomposer.org/download/) .
 
 Выполнить команду
@@ -17,7 +18,7 @@ php composer.phar require lord_svarog/yii2-tinymce-widget:^1.0.0
 "lord_svarog/yii2-tinymce-widget" : "^1.0.0"
 ```
 
-##Простое использование
+## Простое использование
 
 ```php
 use developeruz\tinyMce\TinyMce;
@@ -32,7 +33,7 @@ use developeruz\tinyMce\TinyMce;
     ?>
 ```
 
-##Использование c ActiveForm
+## Использование c ActiveForm
 
 ```php
 use developeruz\tinyMce\TinyMce;

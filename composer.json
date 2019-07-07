@@ -1,5 +1,5 @@
 {
-    "name": "lord_svarog/yii2-tinymce-widget",
+    "name": "lord_svarog/yii2-tinymce-test-widget",
     "description": "TinyMCE widget for Yii2.",
     "type": "yii2-extension",
     "require": {
