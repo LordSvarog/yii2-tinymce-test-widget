@@ -21,7 +21,7 @@ php composer.phar require lord_svarog/yii2-tinymce-widget:^1.0.0
 ## Простое использование
 
 ```php
-use developeruz\tinyMce\TinyMce;
+use lord_svarog\tinyMce\TinyMce;
 
     echo TinyMce::widget( [
             'name' => 'content',
@@ -36,7 +36,7 @@ use developeruz\tinyMce\TinyMce;
 ## Использование c ActiveForm
 
 ```php
-use developeruz\tinyMce\TinyMce;
+use lord_svarog\tinyMce\TinyMce;
 
     echo $form->field($model, 'content')->widget(TinyMce::className(), [
         'options' => ['rows' => 6], // параметры передаваемые в Html::textarea
